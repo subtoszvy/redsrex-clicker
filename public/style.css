@@ -1,0 +1,30 @@
+*{
+  margin: 30px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  color: white;
+}
+body{
+  text-align: center;
+  background-color:red;
+}
+#addcount{
+  margin-top: 20px;
+  font-size: 50px;
+}
+#data{
+  font-size: 50px;
+}
+h1 {
+  font-size: 60px;
+}
+.splash {
+  display: none;
+}
+
+@media (max-width:767px) {
+  .splash {
+    display: block;
+  }
+}
